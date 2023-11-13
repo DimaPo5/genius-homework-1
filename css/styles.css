@@ -1,0 +1,74 @@
+:root {
+  --color-white: #fff;
+  --color-blue-light: #2b7fff;
+  --color-blue-dark: #011c44;
+  --color-gray-light: #4a4a4a;
+  --color-gray-dark: #747272;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* button */
+.button {
+  border-radius: 32px;
+  background: var(--color-blue-light, #2b7fff);
+  color: var(--color-white, #fff);
+  cursor: pointer;
+}
+.button:hover {
+  border-radius: 32px;
+  border: 2px solid var(--color-blue-light);
+  background: transparent;
+  color: var(--color-blue-light);
+}
+.button:focus {
+  border-radius: 32px;
+  border: 2px solid var(--color-blue-light);
+  background: transparent;
+  color: var(--color-blue-light);
+}
+/* link */
+.link {
+  color: var(--color-blue-dark);
+}
+.link:hover {
+  color: var(--color-blue-light);
+}
+
+.clinic-text {
+  color: var(--color-blue-dark);
+}
+/* hero */
+.hero-title {
+  color: var(--color-blue-light);
+}
+.clinic-text-advantages {
+  color: var(--color-gray-light);
+}
+/* title-text */
+.title-text {
+  color: var(--color-blue-dark);
+}
+.title-text .accent {
+  color: var(--color-blue-light);
+}
+
+.adventages-list {
+  color: var(--color-blue-dark);
+}
+
+/* footer section */
+.link-footer {
+  color: var(--color-white);
+}
+.link-footer:hover {
+  color: var(--color-blue-light);
+}
+.link-footer:focus {
+  color: var(--color-blue-light);
+}
+.address-copyright {
+  color: var(--color-gray-dark);
+}
